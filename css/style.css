@@ -1,0 +1,133 @@
+/* GERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:#a0bed0;
+    width: 100%;
+}
+
+
+body {
+    font-family: 'Nunito';
+    letter-spacing: .0625em;
+    margin: 0;
+}
+/* TOPBAR*/
+
+.topbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    top: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex; 
+    padding: 125px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_item {
+    margin: 30px;
+}
+
+/* BACKGROUND */
+
+.background {
+    background-image: url(../img/foto-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+    text-align: center;
+
+ 
+
+ 
+}
+
+.title-background {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'varela round';
+    font-size: 600%;
+    font-weight: lighter;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    letter-spacing: .8rem;
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* padding: 5%; */
+}
+
+
+
+.subtitle-background {
+    font-family: 'nunito';
+    font-size: 22px;
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .5));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   
+}
+
+.btn1 {
+    border: 2px solid;
+    padding: 20px 30px;
+    background-color: #829dad;
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1)!important;
+    font-family: 'Varela Round';
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+}
+
+/* ABOUT */
+
+
+.about {
+    
+    width: 100%;
+    
+
+    
+}
+.section__about {
+    background-color: black;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%);
+}
+
+.section__title {
+    color: white;
+    margin-top: 0;
+}
+.section__text-about {
+    color: white;
+    text-align: center;
+    padding: 0 25%;
+    color: rgba(255,255,255,.5)!important;
+}
