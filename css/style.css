@@ -6,9 +6,7 @@
     padding: 0;
 }
 
-img {
-    width: 100%;
-  
+
 
 }
 
@@ -20,11 +18,18 @@ nav {
     top: 0;
 }
 
+.all {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Nunito';
     letter-spacing: .0625em;
     margin: 0;
 }
+
+
 /*///////////// TOPBAR//////////////*/
 
 .topbar {
@@ -39,7 +44,7 @@ body {
 .topbar__menu__link {
     list-style: none;
     display: flex;
-    margin-right: 20%;
+    /* margin-right: 20%; */
 }
 
 a{
@@ -144,19 +149,142 @@ a:hover {
 .section__text-about {
     color: white;
     text-align: center;
-    padding: 0 25%;
+    padding: 3% 25% 0 25%;
     color: rgba(255,255,255,.5)!important;
 }
 
-/* DESTINY */
+/* DESTINY  */
 
-.container {
-    margin-top: 8%;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.container-destiny {
+    width: 960px;
+}
+
+.siberia {
+    max-width: 100%;
+}
+
+.section_siberia {
+    width: 40%;
+    border-left: 8px solid #829dad;
+}
+
+.destiny-siberia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8%;
+  
+}
+
+.destiny__img-siberia {
+    max-width: 100%;
+    padding-top: 8%;
+}
+
+.section__text-siberia {
+    padding-left: 10%;
+    font-family: 'nunito';
+    text-align: left;
+    color: gray;
+    font-size: 14px;
+    
+}
+
+.section__title-siberia {
+    padding-bottom: 3%;
+    padding-left: 10%;
+    font-family: 'Varela Round';
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+
+/* GROENLANDIA */
+
+
+
+.destiny-groenlandia {
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.destiny__img-groenlandia {
+    max-width: 10%;
+ }
+ 
+.section__title-groenlandia {
+    /* padding-bottom: 3%; */
+    font-family: 'Varela Round';
+    font-size: 22px;
+    font-weight: lighter;
+    color: white;
+    background-color: black;
+    margin-left: 15%;
+}
+
+.section__text-groenlandia {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.hr-groenlandia{
+    color: #36b0e0;
+    width: 1%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    margin-left: 24%;
+}
+
+/* ANTARTIDA */
+
+.destiny-antartida {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.section__title-antartida {
+    color: white;
+    padding-bottom: 3%;
+    font-family: 'Varela Round';
+    font-size: 22px;
+    font-weight: lighter;
+    background-color: black;
+    margin-left: 72%;
+    
+}
+
+.section__text-antartida {
+    text-align: right;
+    margin: 0 auto;
+    width: 80%;
+    margin-right: 15%;
+}
+
+.section__text--black {
+    font-family: 'nunito';
+    color: gray;
+    font-size: 14px;
+    margin-left: 15%;
+}
+
+
+.teste {
+    background-color: black; 
+}
+
+
+
+.groenlandia, .antartida {
+    max-width: 50%;;
+
 }
 
 
