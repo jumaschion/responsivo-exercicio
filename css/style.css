@@ -7,9 +7,6 @@
 }
 
 
-
-}
-
 nav {
     background-color:#a0bed0;
     position: fixed;
@@ -33,6 +30,7 @@ body {
 /*///////////// TOPBAR//////////////*/
 
 .topbar {
+    background-color: #a0bed0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -44,7 +42,7 @@ body {
 .topbar__menu__link {
     list-style: none;
     display: flex;
-    /* margin-right: 20%; */
+    text-align: center;
 }
 
 a{
@@ -287,6 +285,34 @@ a:hover {
 
 }
 
+
+.footer {
+    background-color: #161616;
+    margin-top: 80px;
+    text-align: center;
+    padding: 40px;
+    color: rgba(255,255,255,.5);
+  }
+  
+  .footer__socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .footer__twitter,
+  .footer__facebook,
+  .footer__youtube {
+    opacity: 0.5;
+    margin: 0 10px;
+  }
+  
+  .footer__twitter:hover,
+  .footer__facebook:hover,
+  .footer__youtube:hover {
+    opacity: 1;
+  }
 
 
 /* RESPONSIVO */
